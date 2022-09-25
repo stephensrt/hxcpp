@@ -26,6 +26,7 @@
   <flag value="-c"/>
   <flag value="-fvisibility=hidden"/>
   <cppflag value="-std=c++11" if="HXCPP_CPP11"/>
+    <cppflag value="-std=c++17" if="HXCPP_CPP17"/>
   <flag value="-stdlib=libc++" unless="STDLIBCPP" />
   <flag value="-stdlib=libstdc++" if="STDLIBCPP" />
   <cppflag value="-frtti"/>

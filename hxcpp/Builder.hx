@@ -116,7 +116,7 @@ class Builder
             }
             var staticFlags = isStatic ? ["-Dstatic_link"] : [];
             if (target=="ios" || target=="tvos")
-               staticFlags = ["-DHXCPP_CPP11"];
+               staticFlags = ["-DHXCPP_CPP11", "-DHXCPP_CPP17"];
 
             switch(target)
             {

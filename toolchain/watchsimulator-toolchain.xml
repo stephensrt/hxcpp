@@ -27,6 +27,8 @@
 
   <flag value="-stdlib=libc++" if="HXCPP_CPP11" />
   <flag value="-std=c++11" if="HXCPP_CPP11" />
+    <flag value="-stdlib=libc++" if="HXCPP_CPP17" />
+  <flag value="-std=c++17" if="HXCPP_CPP17" />
   <flag value="-g" />
 
   <flag value="-isysroot"/>
